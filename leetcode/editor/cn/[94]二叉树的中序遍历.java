@@ -25,9 +25,47 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
+/* solution one:递归遍历
 class Solution {
+    List<Integer> list = new ArrayList<>();
     public List<Integer> inorderTraversal(TreeNode root) {
+        if(root == null){
+            return new ArrayList();
+        }
+        if(root.left != null){
+            inorderTraversal(root.left);
+        }
+        list.add(root.val);
+        if(root.right != null){
+            inorderTraversal(root.right);
+        }
+        return list;
+    }
+}*/
 
+class Solution{
+    public List<Integer> inorderTraversal(TreeNode root){
+        if(root == null){
+            return new ArrayList();
+        }
+
+        Stack<TreeNode> s = new Stack<>();
+        List<Integer> res = new ArrayList<>();
+        TreeNode temp = root;
+
+        while(temp != null || !s.empty()){
+            while(temp != null){
+                s.push(temp);
+                temp = temp.left;
+            }
+
+            temp = s.pop();
+            res.add(temp.val);
+            temp = temp.right;
+        }
+
+        return res;
     }
 }
+
 //leetcode submit region end(Prohibit modification and deletion)
