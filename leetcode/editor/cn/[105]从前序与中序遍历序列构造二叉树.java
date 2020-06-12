@@ -30,7 +30,7 @@
  */
 class Solution {
     public TreeNode buildTree(int[] preorder, int[] inorder) {
-
+        test
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
