@@ -75,6 +75,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[496]下一个更大元素 I.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[496]下一个更大元素 I.java" />
+              <option name="questionId" value="496" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/[71]简化路径.java">
           <value>
             <LeetcodeEditor>
@@ -112,6 +120,38 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[98]验证二叉搜索树.java" />
               <option name="questionId" value="98" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer 03]数组中重复的数字.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer 03]数组中重复的数字.java" />
+              <option name="questionId" value="100275" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer 05]替换空格.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer 05]替换空格.java" />
+              <option name="questionId" value="100280" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer 06]从尾到头打印链表.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer 06]从尾到头打印链表.java" />
+              <option name="questionId" value="100282" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer 07]重建二叉树.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer 07]重建二叉树.java" />
+              <option name="questionId" value="100283" />
             </LeetcodeEditor>
           </value>
         </entry>
