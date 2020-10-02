@@ -20,15 +20,41 @@
  *     ListNode(int x) { val = x; }
  * }
  */
+//class Solution {
+//    public ListNode swapPairs(ListNode head) {
+//        if(head == null || head.next == null){
+//            return head;
+//        }
+//        ListNode dum = new ListNode();
+//        dum.next = head;
+//        ListNode pre = dum;
+//        ListNode curr = head;
+//        while(curr != null && curr.next != null){
+//            ListNode last = curr.next;
+//            pre.next = last;
+//            curr.next = last.next;
+//            last.next = curr;
+//
+//            pre = curr;
+//            curr = curr.next;
+//        }
+//        return dum.next;
+//
+//    }
+//}
+
+
 class Solution {
     public ListNode swapPairs(ListNode head) {
+        ListNode start = new ListNode();
         if(head == null || head.next == null){
             return head;
         }
-        ListNode dum = new ListNode();
-        dum.next = head;
-        ListNode pre = dum;
+        start.next = head;
+
+        ListNode pre = start;
         ListNode curr = head;
+
         while(curr != null && curr.next != null){
             ListNode last = curr.next;
             pre.next = last;
@@ -36,10 +62,10 @@ class Solution {
             last.next = curr;
 
             pre = curr;
-            curr = curr.next;
+            curr = pre.next;
         }
-        return dum.next;
 
+        return start.next;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
