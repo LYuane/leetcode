@@ -19,11 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b2310ea-e126-4566-ba54-1979a98f36d0" name="默认更改列表" comment="solve linkedlist problems">
+    <list default="true" id="5b2310ea-e126-4566-ba54-1979a98f36d0" name="默认更改列表" comment="solved some dynamic programming problems">
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/all.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/translation.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +49,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="leetcode" type="Application" factoryName="Application">
@@ -76,7 +75,9 @@
       <workItem from="1601282849637" duration="415000" />
       <workItem from="1601283290559" duration="5494000" />
       <workItem from="1601342781639" duration="9822000" />
-      <workItem from="1601449506472" duration="26553000" />
+      <workItem from="1601449506472" duration="27040000" />
+      <workItem from="1601704088504" duration="773000" />
+      <workItem from="1601817819616" duration="995000" />
     </task>
     <task id="LOCAL-00001" summary="idea test">
       <created>1591760029189</created>
@@ -134,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601609152902</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="solved some dynamic programming problems">
+      <created>1601703262164</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1601703262164</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,7 +166,8 @@
     <MESSAGE value="add solution 100" />
     <MESSAGE value="默认更改列表" />
     <MESSAGE value="solve linkedlist problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="solve linkedlist problems" />
+    <MESSAGE value="solved some dynamic programming problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="solved some dynamic programming problems" />
   </component>
   <component name="WindowStateProjectService">
     <state x="377" y="163" key="#Notifications" timestamp="1601370118171">
@@ -180,16 +189,16 @@
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680/1920.-193.2560.1400@0.0.1280.680" timestamp="1601348171695" />
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1601283848201" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1601343601355">
+    <state x="142" y="0" key="SettingsEditor" timestamp="1601703605146">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680/1920.-193.2560.1400@0.0.1280.680" timestamp="1601343601355" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680/1920.-193.2560.1400@0.0.1280.680" timestamp="1601703605146" />
     <state x="2204" y="-193" key="SettingsEditor/0.0.1280.680/1920.-193.2560.1400@1920.-193.2560.1400" timestamp="1601342673997" />
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1601283849397" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1601609166390">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1601704105387">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.-193.2560.1400@0.0.1280.680" timestamp="1601609166390" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.-193.2560.1400@0.0.1280.680" timestamp="1601704105387" />
     <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1601287361251" />
     <state x="448" y="253" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601287253013">
       <screen x="0" y="0" width="1280" height="680" />
