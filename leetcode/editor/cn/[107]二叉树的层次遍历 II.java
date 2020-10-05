@@ -33,19 +33,47 @@
  */
 class Solution {
     public List<List<Integer>> levelOrderBottom(TreeNode root) {
-        Stack<List<Integer>> s = new Stack<>();
-        if(root == null){
-            return new ArrayList();
-        }
+//        Stack<List<Integer>> s = new Stack<>();
+//        if(root == null){
+//            return new ArrayList();
+//        }
+//
+//        Queue<TreeNode> q = new LinkedList<>();
+//        q.offer(root);
+//        while(q.size() != 0){
+//            int size = q.size();
+//            List<Integer> list = new ArrayList<>();
+//            for(int i = 0; i < size; i++){
+//                TreeNode temp = q.poll();
+//                list.add(temp.val);
+//                if(temp.left != null){
+//                    q.offer(temp.left);
+//                }
+//                if(temp.right != null){
+//                    q.offer(temp.right);
+//                }
+//            }
+//            s.push(list);
+//        }
+//
+//        List<List<Integer>> res = new ArrayList<>();
+//        while(!s.empty()){
+//            res.add(s.pop());
+//        }
+//        return res;
 
+        if(root == null){
+            return  new ArrayList<>();
+        }
+        List<List<Integer>> res = new ArrayList<>();
         Queue<TreeNode> q = new LinkedList<>();
         q.offer(root);
-        while(q.size() != 0){
+        while(!q.isEmpty()){
             int size = q.size();
-            List<Integer> list = new ArrayList<>();
-            for(int i = 0; i < size; i++){
+            List<Integer> tempList = new ArrayList<>();
+            for (int i = 0; i < size; i++) {
                 TreeNode temp = q.poll();
-                list.add(temp.val);
+                tempList.add(temp.val);
                 if(temp.left != null){
                     q.offer(temp.left);
                 }
@@ -53,13 +81,9 @@ class Solution {
                     q.offer(temp.right);
                 }
             }
-            s.push(list);
+            res.add(tempList);
         }
-
-        List<List<Integer>> res = new ArrayList<>();
-        while(!s.empty()){
-            res.add(s.pop());
-        }
+        Collections.reverse(res);
         return res;
     }
 }
