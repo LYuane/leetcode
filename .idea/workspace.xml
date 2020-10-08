@@ -53,7 +53,20 @@
   </component>
   <component name="RunManager">
     <configuration name="leetcode" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <module name="Temp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -79,7 +92,8 @@
       <workItem from="1601704088504" duration="773000" />
       <workItem from="1601817819616" duration="1158000" />
       <workItem from="1601874437223" duration="9445000" />
-      <workItem from="1601949751684" duration="6893000" />
+      <workItem from="1601949751684" duration="7101000" />
+      <workItem from="1602046916263" duration="10553000" />
     </task>
     <task id="LOCAL-00001" summary="idea test">
       <created>1591760029189</created>
@@ -165,7 +179,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601905196397</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="solved some problems about binary tree">
+      <created>1601986344645</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1601986344645</updated>
+    </task>
+    <task id="LOCAL-00014" summary="solved some problems about binary tree">
+      <created>1601986370134</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1601986370134</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,19 +228,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="377" y="163" key="#Notifications/0.0.1280.680/1920.-193.2560.1400@0.0.1280.680" timestamp="1601370118171" />
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601368778953">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="192" y="0" width="1092" height="766" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602160371654">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state x="192" y="0" width="1092" height="766" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.193.1280.693/0.0.2560.1400@0.0.2560.1400" timestamp="1602160371654" />
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.-193.2560.1400@0.0.1280.680" timestamp="1601368778953" />
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1601284430343" />
-    <state x="371" y="129" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1601368765783">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="742" y="266" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1602160369950">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state x="742" y="266" key="#com.intellij.ide.util.TreeClassChooserDialog/-1920.193.1280.693/0.0.2560.1400@0.0.2560.1400" timestamp="1602160369950" />
     <state x="371" y="129" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.680/1920.-193.2560.1400@0.0.1280.680" timestamp="1601368765783" />
     <state x="371" y="129" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1601285337235" />
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1601348171695">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="842" y="196" key="FileChooserDialogImpl" timestamp="1602160348218">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state x="842" y="196" key="FileChooserDialogImpl/-1920.193.1280.693/0.0.2560.1400@0.0.2560.1400" timestamp="1602160348218" />
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680/1920.-193.2560.1400@0.0.1280.680" timestamp="1601348171695" />
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1601283848201" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1601703605146">
@@ -221,10 +252,10 @@
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680/1920.-193.2560.1400@0.0.1280.680" timestamp="1601703605146" />
     <state x="2204" y="-193" key="SettingsEditor/0.0.1280.680/1920.-193.2560.1400@1920.-193.2560.1400" timestamp="1601342673997" />
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1601283849397" />
-    <state x="466" y="150" key="Vcs.Push.Dialog.v2" timestamp="1601949825984">
+    <state x="466" y="150" key="Vcs.Push.Dialog.v2" timestamp="1601986523246">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="466" y="150" key="Vcs.Push.Dialog.v2/-1920.193.1280.693/0.0.2560.1400@0.0.2560.1400" timestamp="1601949825984" />
+    <state x="466" y="150" key="Vcs.Push.Dialog.v2/-1920.193.1280.693/0.0.2560.1400@0.0.2560.1400" timestamp="1601986523246" />
     <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.-193.2560.1400@0.0.1280.680" timestamp="1601704105387" />
     <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1601287361251" />
     <state x="448" y="253" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601287253013">
