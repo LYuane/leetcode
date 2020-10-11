@@ -85,7 +85,8 @@
       <workItem from="1601949751684" duration="7101000" />
       <workItem from="1602046916263" duration="12190000" />
       <workItem from="1602229684225" duration="6646000" />
-      <workItem from="1602331647887" duration="3143000" />
+      <workItem from="1602331647887" duration="4190000" />
+      <workItem from="1602391607942" duration="2794000" />
     </task>
     <task id="LOCAL-00001" summary="idea test">
       <created>1591760029189</created>
@@ -199,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602247404346</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="solved some problems">
+      <created>1602337493041</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1602337493041</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,14 +234,15 @@
     <MESSAGE value="solved some dynamic programming problems" />
     <MESSAGE value="solved some dynamic programming problems about House robbery" />
     <MESSAGE value="solved some problems about binary tree" />
-    <MESSAGE value="solved some problems" />
     <MESSAGE value="solve some problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="solve some problems" />
+    <MESSAGE value="solved some problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="solved some problems" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="377" y="163" key="#Notifications" timestamp="1601370118171">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="754" y="336" key="#Notifications" timestamp="1602395447495">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state x="754" y="336" key="#Notifications/-1920.193.1280.693/0.0.2560.1400@0.0.2560.1400" timestamp="1602395447495" />
     <state x="377" y="163" key="#Notifications/0.0.1280.680/1920.-193.2560.1400@0.0.1280.680" timestamp="1601370118171" />
     <state x="192" y="0" width="1092" height="766" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602160371654">
       <screen x="0" y="0" width="2560" height="1400" />
