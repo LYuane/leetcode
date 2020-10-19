@@ -29,17 +29,22 @@
  * }
  */
 class Solution {
+//    public int maxDepth(TreeNode root) {
+//        if(root == null){
+//            return 0;
+//        }
+//        return Math.max(maxDepth(root.left),maxDepth(root.right))+1;
+//    }
+//    private int maxDepth(TreeNode root, int depth){
+//        if(root == null){
+//            return 0;
+//        }
+//        return Math.max(maxDepth(root.left,depth+1),maxDepth(root.right,))
     public int maxDepth(TreeNode root) {
         if(root == null){
             return 0;
         }
         return Math.max(maxDepth(root.left),maxDepth(root.right))+1;
     }
-//    private int maxDepth(TreeNode root, int depth){
-//        if(root == null){
-//            return 0;
-//        }
-//        return Math.max(maxDepth(root.left,depth+1),maxDepth(root.right,))
-    
 }
 //leetcode submit region end(Prohibit modification and deletion)
