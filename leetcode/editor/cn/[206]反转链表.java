@@ -21,23 +21,43 @@
  * }
  */
 class Solution {
+//    public ListNode reverseList(ListNode head) {
+//        if(head == null || head.next == null){
+//            return head;
+//        }
+//
+//        ListNode pre = head;
+//        ListNode curr = head.next;
+//        while(curr != null){
+//            ListNode last = curr.next;
+//            curr.next = pre;
+//
+//            pre = curr;
+//            curr = last;
+//        }
+//
+//        head.next = null;
+//        return pre;
+//    }
     public ListNode reverseList(ListNode head) {
         if(head == null || head.next == null){
             return head;
         }
 
-        ListNode pre = head;
-        ListNode curr = head.next;
+        ListNode start = new ListNode();
+        start.next = head;
+
+        ListNode pre = start;
+        ListNode curr = head;
         while(curr != null){
             ListNode last = curr.next;
             curr.next = pre;
-
             pre = curr;
             curr = last;
         }
-
         head.next = null;
         return pre;
+
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

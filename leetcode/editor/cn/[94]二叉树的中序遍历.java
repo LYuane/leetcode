@@ -44,27 +44,46 @@ class Solution {
 }*/
 
 class Solution{
+//    public List<Integer> inorderTraversal(TreeNode root){
+//        if(root == null){
+//            return new ArrayList();
+//        }
+//
+//        Stack<TreeNode> s = new Stack<>();
+//        List<Integer> res = new ArrayList<>();
+//        TreeNode temp = root;
+//
+//        while(temp != null || !s.empty()){
+//            while(temp != null){
+//                s.push(temp);
+//                temp = temp.left;
+//            }
+//
+//            temp = s.pop();
+//            res.add(temp.val);
+//            temp = temp.right;
+//        }
+//
+//        return res;
+//    }
+    List<Integer> res = new ArrayList<>();
     public List<Integer> inorderTraversal(TreeNode root){
         if(root == null){
-            return new ArrayList();
+            return res;
         }
-
         Stack<TreeNode> s = new Stack<>();
-        List<Integer> res = new ArrayList<>();
         TreeNode temp = root;
-
         while(temp != null || !s.empty()){
             while(temp != null){
                 s.push(temp);
-                temp = temp.left;
+                temp=temp.left;
             }
-
             temp = s.pop();
             res.add(temp.val);
             temp = temp.right;
         }
-
         return res;
+
     }
 }
 
