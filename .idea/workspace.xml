@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b2310ea-e126-4566-ba54-1979a98f36d0" name="默认更改列表" comment="solved some problems">
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +48,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RunManager">
@@ -96,6 +98,8 @@
       <workItem from="1603350012778" duration="3627000" />
       <workItem from="1603540349365" duration="2581000" />
       <workItem from="1603857691150" duration="1410000" />
+      <workItem from="1623326039960" duration="3173000" />
+      <workItem from="1623388157553" duration="7534000" />
     </task>
     <task id="LOCAL-00001" summary="idea test">
       <created>1591760029189</created>
@@ -284,63 +288,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="solve some problems" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="754" y="336" key="#Notifications" timestamp="1602395447495">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="754" y="336" key="#Notifications/-1920.193.1280.693/0.0.2560.1400@0.0.2560.1400" timestamp="1602395447495" />
-    <state x="377" y="163" key="#Notifications/0.0.1280.680/1920.-193.2560.1400@0.0.1280.680" timestamp="1601370118171" />
-    <state x="174" y="320" width="1092" height="791" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603188314630">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="174" y="320" width="1092" height="791" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.193.1280.693/0.0.2560.1400@0.0.2560.1400" timestamp="1603188314630" />
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.-193.2560.1400@0.0.1280.680" timestamp="1601368778953" />
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1601284430343" />
-    <state x="742" y="266" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1603188293628">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="742" y="266" key="#com.intellij.ide.util.TreeClassChooserDialog/-1920.193.1280.693/0.0.2560.1400@0.0.2560.1400" timestamp="1603188293628" />
-    <state x="371" y="129" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.680/1920.-193.2560.1400@0.0.1280.680" timestamp="1601368765783" />
-    <state x="371" y="129" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1601285337235" />
-    <state x="842" y="196" key="FileChooserDialogImpl" timestamp="1602160348218">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="842" y="196" key="FileChooserDialogImpl/-1920.193.1280.693/0.0.2560.1400@0.0.2560.1400" timestamp="1602160348218" />
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680/1920.-193.2560.1400@0.0.1280.680" timestamp="1601348171695" />
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1601283848201" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1601703605146">
+    <state x="377" y="163" key="#Notifications" timestamp="1623388231392">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680/1920.-193.2560.1400@0.0.1280.680" timestamp="1601703605146" />
-    <state x="2204" y="-193" key="SettingsEditor/0.0.1280.680/1920.-193.2560.1400@1920.-193.2560.1400" timestamp="1601342673997" />
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1601283849397" />
-    <state x="466" y="150" key="Vcs.Push.Dialog.v2" timestamp="1603549667063">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="466" y="150" key="Vcs.Push.Dialog.v2/-1920.193.1280.693/0.0.2560.1400@0.0.2560.1400" timestamp="1603549667063" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.-193.2560.1400@0.0.1280.680" timestamp="1601704105387" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1601287361251" />
-    <state x="448" y="253" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601287253013">
+    <state x="377" y="163" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1623388231392" />
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1623396081322">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="448" y="253" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1601287253013" />
-    <state x="183" y="0" key="new project wizard" timestamp="1602749600753">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="183" y="0" key="new project wizard/0.0.1280.680/1920.-193.2560.1400@0.0.1280.680" timestamp="1601348173370" />
-    <state x="183" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1602749600753" />
-    <state x="2856" y="234" key="run.anything.popup" timestamp="1601342438096">
-      <screen x="1920" y="-193" width="2560" height="1400" />
-    </state>
-    <state x="2856" y="234" key="run.anything.popup/0.0.1280.680/1920.-193.2560.1400@1920.-193.2560.1400" timestamp="1601342438096" />
-    <state x="606" y="2" width="1344" height="1396" key="search.everywhere.popup" timestamp="1603194804111">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="606" y="2" width="1344" height="1396" key="search.everywhere.popup/-1920.193.1280.693/0.0.2560.1400@0.0.2560.1400" timestamp="1603194804111" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/1920.-193.2560.1400@0.0.1280.680" timestamp="1601344651759" />
-    <state x="1110" y="490" key="svn.repositoryBrowser" timestamp="1602161624725">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1110" y="490" key="svn.repositoryBrowser/-1920.193.1280.693/0.0.2560.1400@0.0.2560.1400" timestamp="1602161624725" />
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1623396081322" />
   </component>
   <component name="masterDetails">
     <states>
