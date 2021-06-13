@@ -30,12 +30,38 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
+//    public int[][] merge(int[][] intervals) {
+//        if(intervals.length < 1){
+//            return new int[0][2];
+//        }
+//
+//        Arrays.sort(intervals, new Comparator<int[]>(){
+//            public int compare(int[] interval1, int[] interval2){
+//                return interval1[0] - interval2[0];
+//            }
+//        });
+//
+//        List<int[]> res = new ArrayList<>();
+//        for (int i = 0; i < intervals.length; i++) {
+//            int L = intervals[i][0];
+//            int R = intervals[i][1];
+//            if(res.size() == 0 || L > res.get(res.size()-1)[1]){
+//                res.add(new int[]{L,R});
+//            }else{
+//                res.get(res.size()-1)[1] = Math.max(res.get(res.size()-1)[1],R);
+//            }
+//        }
+//
+//        return res.toArray(new int[res.size()][2]);
+//    }
+
+
     public int[][] merge(int[][] intervals) {
         if(intervals.length < 1){
             return new int[0][2];
         }
 
-        Arrays.sort(intervals, new Comparator<int[]>(){
+        Arrays.sort(intervals,new Comparator<int[]>(){
             public int compare(int[] interval1, int[] interval2){
                 return interval1[0] - interval2[0];
             }
@@ -45,13 +71,13 @@ class Solution {
         for (int i = 0; i < intervals.length; i++) {
             int L = intervals[i][0];
             int R = intervals[i][1];
+
             if(res.size() == 0 || L > res.get(res.size()-1)[1]){
                 res.add(new int[]{L,R});
             }else{
                 res.get(res.size()-1)[1] = Math.max(res.get(res.size()-1)[1],R);
             }
         }
-
         return res.toArray(new int[res.size()][2]);
     }
 }

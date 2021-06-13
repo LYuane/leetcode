@@ -91,6 +91,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[10]正则表达式匹配.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[10]正则表达式匹配.java" />
+              <option name="questionId" value="10" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/[110]平衡二叉树.java">
           <value>
             <LeetcodeEditor>
@@ -208,6 +216,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[155]最小栈.java" />
               <option name="questionId" value="155" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[15]三数之和.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[15]三数之和.java" />
+              <option name="questionId" value="15" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -467,6 +483,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[4]寻找两个正序数组的中位数.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[4]寻找两个正序数组的中位数.java" />
+              <option name="questionId" value="4" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/[530]二叉搜索树的最小绝对差.java">
           <value>
             <LeetcodeEditor>
@@ -491,6 +515,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[55]跳跃游戏.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[55]跳跃游戏.java" />
+              <option name="questionId" value="55" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/[56]合并区间.java">
           <value>
             <LeetcodeEditor>
@@ -504,6 +536,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[595]大的国家.java" />
               <option name="questionId" value="595" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[5]最长回文子串.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[5]最长回文子串.java" />
+              <option name="questionId" value="5" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -584,6 +624,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[71]简化路径.java" />
               <option name="questionId" value="71" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[72]编辑距离.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[72]编辑距离.java" />
+              <option name="questionId" value="72" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -760,6 +808,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer 27]二叉树的镜像.java" />
               <option name="questionId" value="100288" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer 39]数组中出现次数超过一半的数字.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer 39]数组中出现次数超过一半的数字.java" />
+              <option name="questionId" value="100310" />
             </LeetcodeEditor>
           </value>
         </entry>

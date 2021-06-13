@@ -22,6 +22,12 @@
     <list default="true" id="5b2310ea-e126-4566-ba54-1979a98f36d0" name="默认更改列表" comment="solved some problems">
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/[53]最大子序和.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/[53]最大子序和.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/[56]合并区间.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/[56]合并区间.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/[64]最小路径和.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/[64]最小路径和.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/[70]爬楼梯.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/[70]爬楼梯.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/all.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/translation.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +55,24 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="leetcode" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <module name="Temp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -99,7 +116,10 @@
       <workItem from="1603540349365" duration="2581000" />
       <workItem from="1603857691150" duration="1410000" />
       <workItem from="1623326039960" duration="3173000" />
-      <workItem from="1623388157553" duration="7534000" />
+      <workItem from="1623388157553" duration="9791000" />
+      <workItem from="1623475970112" duration="1343000" />
+      <workItem from="1623477420059" duration="100000" />
+      <workItem from="1623477565642" duration="5956000" />
     </task>
     <task id="LOCAL-00001" summary="idea test">
       <created>1591760029189</created>
@@ -292,10 +312,19 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="377" y="163" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1623388231392" />
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1623396081322">
+    <state x="479" y="211" width="1089" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1623476409807">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="479" y="211" width="1089" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1623476409807" />
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1623396544840">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1623396081322" />
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1623396544840" />
+    <state x="498" y="190" key="SettingsEditor" timestamp="1623477661831">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1623396632316" />
+    <state x="498" y="190" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1623477661831" />
   </component>
   <component name="masterDetails">
     <states>
