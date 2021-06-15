@@ -27,15 +27,21 @@
  * }
  */
 class Solution {
-    List<Integer> res = new ArrayList<>();
     public List<Integer> preorderTraversal(TreeNode root) {
-        if(root == null){
-            return res;
+        List<Integer> res = new ArrayList<>();
+        Deque<TreeNode> deque = new LinkedList<>();
+
+        while( root != null || !deque.isEmpty() ) {
+            while(root != null){
+                res.add(root.val);
+                deque.push(root);
+                root = root.left;
+            }
+            root = deque.pop();
+            root = root.right;
         }
-        res.add(root.val);
-        preorderTraversal(root.left);
-        preorderTraversal(root.right);
         return res;
+
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

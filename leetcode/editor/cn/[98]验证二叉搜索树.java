@@ -43,33 +43,45 @@
  * }
  */
 class Solution {
-//    public boolean isValidBST(TreeNode root) {
-//        return isValidBST(root,Long.MIN_VALUE,Long.MAX_VALUE);
-//    }
-//
-//    private boolean isValidBST(TreeNode root, long min, long max){
+
+    //1.递归
+//    public boolean isValidBST(TreeNode root){
 //        if(root == null){
 //            return true;
 //        }
-//        if(root.val > min && root.val < max){
-//            return isValidBST(root.left,min,root.val) & isValidBST(root.right,root.val,max);
-//        }else{
+//        return isValidBST(root,Long.MIN_VALUE,Long.MAX_VALUE);
+//    }
+//
+//    private boolean isValidBST(TreeNode root,long min,long max){
+//        if(root == null){
+//            return true;
+//        }
+//        if(root.val <= min || root.val >= max){
 //            return false;
 //        }
+//        return isValidBST(root.left,min,root.val) && isValidBST(root.right,root.val,max);
 //    }
 
+
+    //2.中序遍历为递增序列，用栈非递归
     public boolean isValidBST(TreeNode root){
-        return isValidBST(root,Integer.MIN_VALUE,Integer.MAX_VALUE);
+        Deque<TreeNode> deque = new LinkedList<>();
+        long min = Long.MIN_VALUE;
+
+        while(root != null || !deque.isEmpty()){
+            while(root != null){
+                deque.push(root);
+                root = root.left;
+            }
+            root = deque.pop();
+            if(root.val <= min){
+                return false;
+            }
+            min = root.val;
+            root = root.right;
+        }
+        return true;
     }
 
-    public boolean isValidBST(TreeNode root, int min ,int max){
-        if(root == null){
-            return true;
-        }
-        if(root.val <= min || root.val >= max){
-            return false;
-        }
-        return isValidBST(root.left,min,root.val) && isValidBST(root.right,root.val,max);
-    }
 }
 //leetcode submit region end(Prohibit modification and deletion)

@@ -25,65 +25,24 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-/* solution one:递归遍历
-class Solution {
-    List<Integer> list = new ArrayList<>();
-    public List<Integer> inorderTraversal(TreeNode root) {
-        if(root == null){
-            return new ArrayList();
-        }
-        if(root.left != null){
-            inorderTraversal(root.left);
-        }
-        list.add(root.val);
-        if(root.right != null){
-            inorderTraversal(root.right);
-        }
-        return list;
-    }
-}*/
+
 
 class Solution{
-//    public List<Integer> inorderTraversal(TreeNode root){
-//        if(root == null){
-//            return new ArrayList();
-//        }
-//
-//        Stack<TreeNode> s = new Stack<>();
-//        List<Integer> res = new ArrayList<>();
-//        TreeNode temp = root;
-//
-//        while(temp != null || !s.empty()){
-//            while(temp != null){
-//                s.push(temp);
-//                temp = temp.left;
-//            }
-//
-//            temp = s.pop();
-//            res.add(temp.val);
-//            temp = temp.right;
-//        }
-//
-//        return res;
-//    }
-    List<Integer> res = new ArrayList<>();
+    //中序
     public List<Integer> inorderTraversal(TreeNode root){
-        if(root == null){
-            return res;
-        }
-        Stack<TreeNode> s = new Stack<>();
-        TreeNode temp = root;
-        while(temp != null || !s.empty()){
-            while(temp != null){
-                s.push(temp);
-                temp=temp.left;
+        List<Integer> res = new ArrayList<>();
+        Deque<ListNode> deque = new LinkedList<>();
+
+        while( root != null || !deque.isEmpty()){
+            while(root != null){
+                deque.push(root);
+                root = root.left;
             }
-            temp = s.pop();
-            res.add(temp.val);
-            temp = temp.right;
+            root = deque.pop();
+            res.add(root.val);
+            root = root.right;
         }
         return res;
-
     }
 }
 

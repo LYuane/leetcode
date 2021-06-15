@@ -42,21 +42,51 @@
  * }
  */
 class Solution {
-    public boolean isSymmetric(TreeNode root) {
+
+    //递归
+//    public boolean isSymmetric(TreeNode root) {
+//        if(root == null){
+//            return true;
+//        }
+//        return isSymmetric(root.left,root.right);
+//    }
+//
+//    private boolean isSymmetric(TreeNode root1, TreeNode root2){
+//        if(root1 == null && root2 == null){
+//            return true;
+//        }
+//        if(root1 == null || root2 == null){
+//            return false;
+//        }
+//        return (root1.val == root2.val) && isSymmetric(root1.left,root2.right) && isSymmetric(root1.right,root2.left);
+//    }
+
+    //迭代
+    public boolean isSymmetric(TreeNode root){
         if(root == null){
             return true;
         }
-        return isSymmetric(root.left,root.right);
+
+        Queue<TreeNode> q = new LinkedList<>();
+        q.add(root.left);
+        q.add(root.right);
+
+        while(!q.isEmpty()){
+            TreeNode t1 = q.poll();
+            TreeNode t2 = q.poll();
+            if(t1 == null && t2 == null){
+                continue;
+            }
+            if(t1 == null || t2 == null || t1.val != t2.val){
+                return false;
+            }
+            q.offer(t1.left);
+            q.offer(t2.right);
+            q.offer(t1.right);
+            q.offer(t2.left);
+        }
+        return true;
     }
 
-    private boolean isSymmetric(TreeNode root1, TreeNode root2){
-        if(root1 == null && root2 == null){
-            return true;
-        }
-        if(root1 == null || root2 == null){
-            return false;
-        }
-        return (root1.val == root2.val) && isSymmetric(root1.left,root2.right) && isSymmetric(root1.right,root2.left);
-    }
 }
 //leetcode submit region end(Prohibit modification and deletion)
