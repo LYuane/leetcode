@@ -21,6 +21,7 @@
  * }
  */
 class Solution {
+    // 迭代
 //    public ListNode reverseList(ListNode head) {
 //        if(head == null || head.next == null){
 //            return head;
@@ -31,33 +32,23 @@ class Solution {
 //        while(curr != null){
 //            ListNode last = curr.next;
 //            curr.next = pre;
-//
 //            pre = curr;
 //            curr = last;
 //        }
-//
 //        head.next = null;
 //        return pre;
 //    }
+
+    //递归
     public ListNode reverseList(ListNode head) {
-        if(head == null || head.next == null){
-            return head;
-        }
-
-        ListNode start = new ListNode();
-        start.next = head;
-
-        ListNode pre = start;
-        ListNode curr = head;
-        while(curr != null){
-            ListNode last = curr.next;
-            curr.next = pre;
-            pre = curr;
-            curr = last;
-        }
+        if(head == null || head.next == null) return head;
+        ListNode p = reverseList(head.next);
+        ListNode last = head.next;
+        last.next = head;
         head.next = null;
-        return pre;
+        return p;
 
     }
+
 }
 //leetcode submit region end(Prohibit modification and deletion)

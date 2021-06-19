@@ -44,21 +44,40 @@
  * }
  */
 class Solution {
-    public int kthLargest(TreeNode root, int k) {
-        Stack<TreeNode> s = new Stack<>();
-        int count = 0;
-        TreeNode temp = root;
-        while(temp != null || !s.empty()){
-            while(temp != null){
-                s.push(temp);
-                temp = temp.right;
-            }
-            temp = s.pop();
-            count++;
-            if(count == k){
-                return temp.val;
-            }
-            temp = temp.left;
+//    public int kthLargest(TreeNode root, int k) {
+//        Stack<TreeNode> s = new Stack<>();
+//        int count = 0;
+//        TreeNode temp = root;
+//        while(temp != null || !s.empty()){
+//            while(temp != null){
+//                s.push(temp);
+//                temp = temp.right;
+//            }
+//            temp = s.pop();
+//            count++;
+//            if(count == k){
+//                return temp.val;
+//            }
+//            temp = temp.left;
+//        }
+//        return -1;
+//    }
+
+    public int kthLargest(TreeNode root, int k){
+        if(root == null){
+            return -1;
+        }
+        int right = kthLargest(root.right,k);
+        if(right != -1){
+            return right;
+        }
+        if(k == 1){
+            return root.val;
+        }
+        k--;
+        int left = kthLargest(root.left,k);
+        if(left != -1){
+            return left;
         }
         return -1;
     }

@@ -22,14 +22,13 @@
     <list default="true" id="5b2310ea-e126-4566-ba54-1979a98f36d0" name="默认更改列表" comment="solved some problems">
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/[101]对称二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/[101]对称二叉树.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/[102]二叉树的层序遍历.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/[102]二叉树的层序遍历.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/[104]二叉树的最大深度.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/[104]二叉树的最大深度.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/[105]从前序与中序遍历序列构造二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/[105]从前序与中序遍历序列构造二叉树.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/[144]二叉树的前序遍历.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/[144]二叉树的前序遍历.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/[94]二叉树的中序遍历.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/[94]二叉树的中序遍历.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/[98]验证二叉搜索树.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/[98]验证二叉搜索树.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/[110]平衡二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/[110]平衡二叉树.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/[112]路径总和.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/[112]路径总和.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/[206]反转链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/[206]反转链表.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/[234]回文链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/[234]回文链表.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer 54]二叉搜索树的第k大节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer 54]二叉搜索树的第k大节点.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/all.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/translation.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +63,17 @@
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <module name="Temp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -112,7 +122,9 @@
       <workItem from="1623477420059" duration="100000" />
       <workItem from="1623477565642" duration="13002000" />
       <workItem from="1623569797191" duration="306000" />
-      <workItem from="1623720077511" duration="8780000" />
+      <workItem from="1623720077511" duration="15012000" />
+      <workItem from="1623828525845" duration="7754000" />
+      <workItem from="1623996436099" duration="12747000" />
     </task>
     <task id="LOCAL-00001" summary="idea test">
       <created>1591760029189</created>
@@ -318,6 +330,10 @@
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1623396632316" />
     <state x="498" y="190" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1623477661831" />
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1623997787832">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1623997787832" />
   </component>
   <component name="masterDetails">
     <states>

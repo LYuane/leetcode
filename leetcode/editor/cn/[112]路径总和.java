@@ -30,6 +30,7 @@
  * }
  */
 class Solution {
+    //DFS
     public boolean hasPathSum(TreeNode root, int sum) {
         if(root == null){
             return false;
@@ -39,5 +40,7 @@ class Solution {
         }
         return hasPathSum(root.left,sum-root.val) || hasPathSum(root.right,sum-root.val);
     }
+
+    //BFS 用两个栈来实现
 }
 //leetcode submit region end(Prohibit modification and deletion)

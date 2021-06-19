@@ -75,29 +75,5 @@ class Solution {
         return pre;
     }
 }
-//
-//import java.io.*;
-//import java.util.List;
-//import java.util.ArrayList;
-//
-//class Solution {
-//    public boolean isPalindrome(ListNode head) {
-//        List<Integer> list = new ArrayList<>();
-//        while(head != null){
-//            list.add(head.val);
-//            head = head.next;
-//        }
-//        int[] res = (int[])list.toArray(new int[list.size()]);
-//        //list.toArray(res);
-////        int[] res = new int[list.size()];
-////        list.toArray(res);
-//
-//        for(int i = 0,j = res.length-1;i < j ; i++,j--){
-//            if(res[i] != res[j]){
-//                return false;
-//            }
-//        }
-//        return true;
-//    }
-//}
+
 //leetcode submit region end(Prohibit modification and deletion)
