@@ -22,9 +22,6 @@
     <list default="true" id="5b2310ea-e126-4566-ba54-1979a98f36d0" name="默认更改列表" comment="solved some problems">
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/[110]平衡二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/[110]平衡二叉树.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/[112]路径总和.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/[112]路径总和.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/[206]反转链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/[206]反转链表.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/[234]回文链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/[234]回文链表.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer 54]二叉搜索树的第k大节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/[剑指 Offer 54]二叉搜索树的第k大节点.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/all.json" afterDir="false" />
@@ -63,17 +60,6 @@
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <module name="Temp" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -125,6 +111,8 @@
       <workItem from="1623720077511" duration="15012000" />
       <workItem from="1623828525845" duration="7754000" />
       <workItem from="1623996436099" duration="12747000" />
+      <workItem from="1624094548260" duration="128000" />
+      <workItem from="1624344743245" duration="4372000" />
     </task>
     <task id="LOCAL-00001" summary="idea test">
       <created>1591760029189</created>

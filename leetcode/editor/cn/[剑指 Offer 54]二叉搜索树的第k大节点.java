@@ -44,40 +44,40 @@
  * }
  */
 class Solution {
-//    public int kthLargest(TreeNode root, int k) {
-//        Stack<TreeNode> s = new Stack<>();
-//        int count = 0;
-//        TreeNode temp = root;
-//        while(temp != null || !s.empty()){
-//            while(temp != null){
-//                s.push(temp);
-//                temp = temp.right;
-//            }
-//            temp = s.pop();
-//            count++;
-//            if(count == k){
-//                return temp.val;
-//            }
-//            temp = temp.left;
+//    int k;
+//    int res;
+//    public int kthLargest(TreeNode root, int k){
+//        this.k = k;
+//        dfs(root);
+//        return res;
+//    }
+//    private void dfs(TreeNode root){
+//        if(root == null){
+//            return;
 //        }
-//        return -1;
+//        dfs(root.right);
+//        if(k == 1){
+//            res = root.val;
+//        }
+//        k--;
+//        dfs(root.left);
 //    }
 
     public int kthLargest(TreeNode root, int k){
-        if(root == null){
-            return -1;
-        }
-        int right = kthLargest(root.right,k);
-        if(right != -1){
-            return right;
-        }
-        if(k == 1){
-            return root.val;
-        }
-        k--;
-        int left = kthLargest(root.left,k);
-        if(left != -1){
-            return left;
+        Deque<TreeNode> deque = new LinkedList<>();
+
+        while(!deque.isEmpty() || root != null){
+            while(root != null){
+                deque.push(root);
+                root = root.right;
+            }
+            root = deque.pop();
+            if(k == 1){
+                return root.val;
+            }else{
+                k--;
+            }
+            root = root.left;
         }
         return -1;
     }

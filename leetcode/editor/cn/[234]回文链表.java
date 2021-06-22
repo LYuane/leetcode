@@ -27,22 +27,41 @@
  * }
  */
 class Solution {
+    private ListNode front;
     public boolean isPalindrome(ListNode head) {
-        if(head == null || head.next == null){
-            return true;
-        }
-        ListNode mid = generateMid(head);
-        ListNode end = reverseList(mid);
-        while(end != null){
-            if(end.val != head.val){
+        front = head;
+        return check(head);
+    }
+    private boolean check(ListNode head){
+        if(head != null){
+            if(!check(head.next)){
                 return false;
             }
-            end = end.next;
-            head = head.next;
+            if(head.val != front.val){
+                return false;
+            }
+            front = front.next;
         }
         return true;
-
     }
+
+
+//    public boolean isPalindrome(ListNode head) {
+//        if(head == null || head.next == null){
+//            return true;
+//        }
+//        ListNode mid = generateMid(head);
+//        ListNode end = reverseList(mid);
+//        while(end != null){
+//            if(end.val != head.val){
+//                return false;
+//            }
+//            end = end.next;
+//            head = head.next;
+//        }
+//        return true;
+//
+//    }
 
     //奇节点数：返回中间节点；偶节点数：返回右中位数节点。
     private ListNode generateMid(ListNode head){
