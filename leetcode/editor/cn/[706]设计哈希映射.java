@@ -51,25 +51,67 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class MyHashMap {
+    class Node{
+        public int key;
+        public int value;
+        public Node(int key, int value) {
+            this.key = key;
+            this.value = value;
+        }
+    }
 
+    private static final int SIZE = 769;
+    private LinkedList[] data;
     /** Initialize your data structure here. */
     public MyHashMap() {
-
+        data = new LinkedList[SIZE];
+        for (int i = 0; i < SIZE; i++) {
+            data[i] = new LinkedList<Node>();
+        }
     }
     
     /** value will always be non-negative. */
     public void put(int key, int value) {
-
+        int h = hash(key);
+        Iterator<Node> iterator = data[h].iterator();
+        while (iterator.hasNext()){
+            Node temp = iterator.next();
+            if(temp.key == key){
+                temp.value = value;
+                return;
+            }
+        }
+        data[h].offerLast(new Node(key,value));
     }
     
     /** Returns the value to which the specified key is mapped, or -1 if this map contains no mapping for the key */
     public int get(int key) {
-
+        int h = hash(key);
+        Iterator<Node> iterator = data[h].iterator();
+        while (iterator.hasNext()){
+            Node temp = iterator.next();
+            if(temp.key == key){
+                return temp.value;
+            }
+        }
+        return -1;
     }
     
     /** Removes the mapping of the specified value key if this map contains a mapping for the key */
     public void remove(int key) {
+        int h = hash(key);
+        Iterator<Node> iterator = data[h].iterator();
+        while (iterator.hasNext()){
+            Node temp = iterator.next();
+            if(temp.key == key){
+                data[h].remove(temp);
+                return;
+            }
+        }
+    }
 
+    private int hash(int key) {
+        return key%SIZE;
     }
 }
 
