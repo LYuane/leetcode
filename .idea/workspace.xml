@@ -22,8 +22,11 @@
     <list default="true" id="5b2310ea-e126-4566-ba54-1979a98f36d0" name="默认更改列表" comment="solved some problems">
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/[706]设计哈希映射.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/[706]设计哈希映射.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/[206]反转链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/[206]反转链表.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/[215]数组中的第K个最大元素.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/[215]数组中的第K个最大元素.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/[23]合并K个升序链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/[23]合并K个升序链表.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/all.json" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/all.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/editor/cn/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/editor/cn/translation.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +114,9 @@
       <workItem from="1623996436099" duration="12747000" />
       <workItem from="1624094548260" duration="128000" />
       <workItem from="1624344743245" duration="5046000" />
-      <workItem from="1624452142113" duration="3249000" />
+      <workItem from="1624452142113" duration="4229000" />
+      <workItem from="1624583620283" duration="5652000" />
+      <workItem from="1624611131151" duration="2583000" />
     </task>
     <task id="LOCAL-00001" summary="idea test">
       <created>1591760029189</created>

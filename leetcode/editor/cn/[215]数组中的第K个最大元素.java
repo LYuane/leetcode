@@ -19,60 +19,94 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
+//    public int findKthLargest(int[] nums, int k) {
+//        return findKthLargest(nums,0,nums.length-1,k);
+//    }
+//    private int findKthLargest(int[] nums, int left, int right, int k){
+//        if(left <= right){
+//            int index = partition(nums,left,right);
+//            if(index == nums.length-k){
+//                return nums[index];
+//            }else if(index > nums.length-k){
+//                return findKthLargest(nums,left,index-1,k);
+//            }else{
+//                return findKthLargest(nums,index+1,right,k);
+//            }
+//        }
+//        return -1;
+//    }
+//    private int partition(int[] nums,int left,int right){
+//        int temp = nums[left];
+//        while(left < right){
+//            while(left < right && nums[right] >= temp){
+//                right--;
+//            }
+//            swap(nums,left,right);
+//            while(left < right && nums[left] <temp){
+//                left++;
+//            }
+//            swap(nums,left,right);
+//        }
+//        nums[left] = temp;
+//        return left;
+//    }
+//    private void swap(int[] nums, int left, int right){
+//        int temp = nums[left];
+//        nums[left] = nums[right];
+//        nums[right] = temp;
+//    }
+
+
+//    public int findKthLargest(int[] nums, int k) {
+//        PriorityQueue<Integer> queue = new PriorityQueue<>();
+//        for(int item : nums){
+//            queue.add(item);
+//            if(queue.size() > k){
+//                queue.poll();
+//            }
+//        }
+//        return queue.poll();
+//    }
+
     public int findKthLargest(int[] nums, int k) {
-        int left = 0;
-        int right = nums.length -1;
-        int target = nums.length - k;
-        while(true){
-            int index = partition(nums,left,right);
-            if(index == target){
-                return nums[index];
-            }else if(index < target){
-                left = index + 1;
-            }else{
-                right = index - 1;
-            }
+        int heapSize = nums.length;
+        buildMaxHeap(nums,heapSize);
+        for (int i = nums.length-1; i >= nums.length-k+1; --i) {
+            swap(nums,0,i);
+            --heapSize;
+            maxHeapify(nums,0,heapSize);
         }
-
-        /*优先队列：小顶堆  时间复杂度 NlogK
-        PriorityQueue<Integer> q = new PriorityQueue<>();
-        for(int num:nums){
-            q.add(num);
-            if(q.size()> k){
-                q.poll();
-            }
-        }
-        return q.poll();
-        */
-
-        /*排序  NlogN
-        Arrays.sort(nums);
-        return  nums[nums.length-k];
-        */
-
+        return nums[0];
     }
 
-    private int partition(int[] nums, int left , int right){
-        //int index = left;
-        int pivot = nums[left];
-        int i = left ;
-        int j = right;
-        while(i < j){
-            while(i < j && nums[j] > pivot){
-                j--;
-            }
-            swap(nums,i,j);
-            while(i < j && nums[i] <= pivot){
-                i++;
-            }
-            swap(nums,i,j);
+    private void buildMaxHeap(int[] nums,int heapSize){
+        for (int i = heapSize/2; i >=0 ; i--) {
+            maxHeapify(nums,i,heapSize);
         }
-        return i;
     }
-    private void swap(int[] nums, int i, int j){
+
+    public void maxHeapify(int[] nums, int i, int heapSize){
+        int l = i*2+1;
+        int r = i*2+2;
+        int largest = i;
+        if(l < heapSize && nums[l] > largest){
+            largest = l;
+        }
+        if(r < heapSize && nums[r] > largest){
+            largest = r;
+        }
+        if(largest != i){
+            swap(nums,i,largest);
+            maxHeapify(nums,largest,heapSize);
+        }
+    }
+
+    private void swap(int[] nums, int i , int j){
         int temp = nums[i];
         nums[i] = nums[j];
         nums[j] = temp;
     }
+
+
 }
 //leetcode submit region end(Prohibit modification and deletion)

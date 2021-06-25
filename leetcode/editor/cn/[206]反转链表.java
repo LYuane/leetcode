@@ -40,15 +40,26 @@ class Solution {
 //    }
 
     //递归
-    public ListNode reverseList(ListNode head) {
+//    public ListNode reverseList(ListNode head) {
+//        if(head == null || head.next == null) return head;
+//        ListNode p = reverseList(head.next);
+//        ListNode last = head.next;
+//        last.next = head;
+//        head.next = null;
+//        return p;
+//
+//    }
+
+
+
+
+    public ListNode reverseList(ListNode head){
         if(head == null || head.next == null) return head;
         ListNode p = reverseList(head.next);
         ListNode last = head.next;
         last.next = head;
         head.next = null;
         return p;
-
     }
-
 }
 //leetcode submit region end(Prohibit modification and deletion)
