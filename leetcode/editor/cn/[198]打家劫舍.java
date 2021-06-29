@@ -35,20 +35,19 @@
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public int rob(int[] nums) {
-        if(nums.length < 1){
-            return 0;
+        int len = nums.length;
+        int[][] dp = new int[2][len];
+
+        //0偷   1不偷
+        dp[0][0] = nums[0];
+        dp[1][0] = 0;
+
+        for (int i = 1; i < len; i++) {
+            dp[0][i] = dp[1][i-1]+nums[i];
+            dp[1][i] = Math.max(dp[0][i-1],dp[1][i-1]);
         }
-        int[][] res = new int[nums.length][2];
+        return Math.max(dp[0][len-1],dp[1][len-1]);
 
-        res[0][0] = nums[0];
-        res[0][1] = 0;
-
-        for (int i = 1; i < nums.length; i++) {
-            res[i][0] = res[i-1][1] + nums[i];
-            res[i][1] = Math.max(res[i-1][0],res[i-1][1]);
-        }
-
-        return res[nums.length-1][0] > res[nums.length-1][1] ? res[nums.length-1][0] : res[nums.length-1][1];
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
